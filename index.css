@@ -1,0 +1,74 @@
+body{
+    background-image: url(https://blackrockdigital.github.io/startbootstrap-agency/img/header-bg.jpg)
+}
+
+
+.main-nav{
+    height:50px;
+    
+    display: flex;
+    justify-content: space-between;
+    border: 2px solid black;
+    color: yellow;
+    font-family: 'Kaushan Script', cursive;
+    
+}
+
+
+.small-div{
+    height:80px;
+    width: 100%;
+    color: white;
+    
+}
+
+.page-nav {
+   width: 30vw;
+   list-style-type: none;
+   border: 1px solid white;
+   display: flex;
+   flex-wrap: wrap;
+   align-items: center;
+   margin: auto;
+   float: right;
+   justify-content: space-between;
+
+
+}
+
+
+
+
+
+
+.mastHead {
+    color: white;
+    text-align: center;
+    padding-top: 300px;
+}
+
+h1 {
+    font-size: 100px;
+}
+button{
+    background-color: yellow;
+    border-radius: 20%;
+}
+   
+@media only screen and  (max-width: 750px){
+    ul > li {
+       background: yellow;
+       flex-basis: 100%;
+       flex-grow: 1;
+       align-items: center;
+
+
+    }
+    h1 {
+        font-size: 25px;
+        color: slategrey;
+
+        
+    }
+}
+
